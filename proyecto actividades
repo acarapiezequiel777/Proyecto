@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cateto</title>
+</head>
+<body>
+    <script src="type.ts"></script>
+</body>
+</html>
+1-
+const numero1=Number(prompt("ingresar el primer lado del cateto"))
+const numero2=Number(prompt("ingresar el segundo lado del cateto"))
+const area= (numero1*numero2)/2;
+document.write("el area del triangulo es: "+area+"cm2")
+1-
+const numero1=Number(prompt("ingresar un numero"))
+if(numero1 % 2==0){
+document.write("es par");
+}else
+{
+document.write("es impar");
+}
+2-
+const vi = Number(prompt("Ingresa la velocidad inicial"));
+const a = Number(prompt("Ingresa la aceleración "));
+const d = Number(prompt("Ingresa la distancia "));
+
+const calculo = (vi * vi) + (2 * a * d);
+
+if (a != 0) {
+  const tiempo = (-vi + (calculo * 0.5)) / a;
+  document.write("El tiempo es: " + tiempo + " segundos");
+} else {
+  const tiempoSimple = d / vi;
+  document.write("El tiempo sin aceleración es: " + tiempoSimple);
+}
+3-
+const numero1 = Number(prompt("el precio del juego"));
+const iva = numero1*1.21;
+
+document.write("El precio final es: " + iva);
+4-
+const numero1 = Number(prompt("ingresar el tamaño en mb"));
+const kb = numero1*1000;
+
+document.write("El tamaño final es: " + kb +"kb");
+5-
+const numero1 = Number(prompt("ingresar el lado de un cuadrado"));
+const area = numero1*numero1;
+if(area>=25){
+    document.write("el area es mayor o igual a 25")
+}else{
+    document.write("es menor a 25")
+}
+6-
+const numero1 = Number(prompt("ingresar la hora que quiere calcular a seg"));
+const calculo = numero1*3600;
+document.write("la hora que ingreso en seg es:"+calculo)
+
+
+
+
