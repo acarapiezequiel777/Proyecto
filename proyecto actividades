@@ -9,11 +9,7 @@
     <script src="type.ts"></script>
 </body>
 </html>
-1-
-const numero1=Number(prompt("ingresar el primer lado del cateto"))
-const numero2=Number(prompt("ingresar el segundo lado del cateto"))
-const area= (numero1*numero2)/2;
-document.write("el area del triangulo es: "+area+"cm2")
+
 1-
 const numero1=Number(prompt("ingresar un numero"))
 if(numero1 % 2==0){
@@ -58,6 +54,11 @@ if(area>=25){
 const numero1 = Number(prompt("ingresar la hora que quiere calcular a seg"));
 const calculo = numero1*3600;
 document.write("la hora que ingreso en seg es:"+calculo)
+7-
+const numero1=Number(prompt("ingresar el primer lado del cateto"))
+const numero2=Number(prompt("ingresar el segundo lado del cateto"))
+const area= (numero1*numero2)/2;
+document.write("el area del triangulo es: "+area+"cm2")
 
 
 
